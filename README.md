@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: SonarQube Scan
-      uses: fedecalendino/sonarqube-scanner-trigger@master
+      uses: fedecalendino/sonarqube-scanner-trigger@main
       with:
         url: ${{ secrets.SONARQUBE_URL }}
         token: ${{ secrets.SONARQUBE_TOKEN }}
